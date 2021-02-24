@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>jinja-templates: foods</title>
+</head>
+<body>
+    <h1>Here are some cool foods:</h1>
+    <h2>Fruits</h2>
+    <ul>
+    {% for fruit_item in foods["fruits"] %}
+        <li>{{ fruit_item }}</li>
+    {% endfor %}
+    </ul>
+    <h2>Veggies</h2>
+    <ul>
+    {% for veggie_item in foods["vegetables"] %}
+        <li>{{ veggie_item }}</li>
+    {% endfor %}
+    </ul>
+
+    <p>We just printed out the following fruits: {{ foods["fruits"] | join(', ') }}</p>
+</body>
+</html>

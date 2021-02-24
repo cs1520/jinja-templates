@@ -1,0 +1,25 @@
+/* https://web.dev/one-line-layouts/ has convenient one-line CSS layouts */
+
+body {
+    place-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: #333;
+    color: white;
+}
+
+nav {
+    background-color: greenyellow;
+    box-shadow: lawngreen;
+}
+
+nav a {
+    padding: 0.3em;
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#900;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
